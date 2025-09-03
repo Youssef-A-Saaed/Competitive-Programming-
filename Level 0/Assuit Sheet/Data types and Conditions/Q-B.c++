@@ -2,10 +2,12 @@
 using namespace std;
  
 int main(){
-    long long x, y;
-    cin >> x >> y;
+    int a;
+    long long b;
+    char c;
+    float d;
+    double e;
     
-    cout << x << " + " << y<< " = " << x+y << endl;
-    cout << x  << " * " << y << " = " << x*y << endl;
-    cout << x  << " - " << y << " = " << x-y << endl; 
+    cin >> a >> b >> c >> d >> e;
+    cout << a << endl << b << endl << c << endl << d << endl << e << endl;
 }
